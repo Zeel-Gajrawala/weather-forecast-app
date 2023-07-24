@@ -14,7 +14,18 @@ export class WeatherService {
     let params: HttpParams = new HttpParams();
     params = params.append('appid', environment.appId);
     params = params.append('q', city);
+    params = params.append('units', 'metric');
 
-    return this.http.get<Weather>(environment.apiUrl, { params: params });
+    return this.http.get<Weather>(`${environment.apiUrl}/weather`, { params: params });
+  }
+
+  getDailyForecast(city: string) {
+    let params: HttpParams = new HttpParams();
+    params = params.append('appid', environment.appId);
+    params = params.append('q', city);
+    params = params.append('units', 'metric');
+    params = params.append('cnt', 16);
+
+    return this.http.get<Weather>(`${environment.apiUrl}/forecast/daily`, { params: params });
   }
 }
