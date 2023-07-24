@@ -61,116 +61,128 @@
         </div>
       </div>
 
-      <div class="flex items-center mt-16">
-        <div class="w-4/5 temperature flex justify-end">
-          <div class="flex">
-            <div
-              class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-2/4 sm:w-2/4 xs:w-2/5 xxs:w-2/5 flex items-end"
-            >
-              <div class="thermometer-icon">
-                <img
-                  class="2xl:w-7 xl:w-7 lg:w-7 md:w-8 sm:w-8 xs:w-8 xxs:w-8"
-                  src="assets/images/svg/thermometer.svg"
-                  alt="thermometer-icon"
-                />
-              </div>
-            </div>
-
-            <div class="w-full temperature-info">
-              <div class="temperature-cel">
-                <div class="flex">
-                  <p
-                    class="font-barlow font-medium 2xl:text-9xl xl:text-9xl lg:text-9xl md:text-8xl sm:text-8xl xs:text-7xl xxs:text-7xl tracking-wide text-white"
-                  >
-                    {{ weather.main?.temp | number : "1.0-0" }}
-                  </p>
+      <ng-container *ngIf="(weather | json) != '{}'; else datanotfound">
+        <div class="flex items-center mt-16">
+          <div class="w-4/5 temperature flex justify-end">
+            <div class="flex">
+              <div
+                class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-2/4 sm:w-2/4 xs:w-2/5 xxs:w-2/5 flex items-end"
+              >
+                <div class="thermometer-icon">
                   <img
-                    class="w-20 h-full"
-                    src="assets/images/svg/celcius.svg"
-                    alt="celcius"
+                    class="2xl:w-7 xl:w-7 lg:w-7 md:w-8 sm:w-8 xs:w-8 xxs:w-8"
+                    src="assets/images/svg/thermometer.svg"
+                    alt="thermometer-icon"
                   />
                 </div>
               </div>
-              <div class="temperature-range">
-                <p
-                  class="font-comfortaa font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base tracking-wide mb-1"
-                >
-                  Temperature
-                </p>
-                <p
-                  class="font-comfortaa font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base tracking-wide"
-                >
-                  {{ weather.main?.temp_max | number : "1.0-0" }}-{{
-                    weather.main?.temp_min | number : "1.0-0"
-                  }}
-                </p>
+
+              <div class="w-full temperature-info">
+                <div class="temperature-cel">
+                  <div class="flex">
+                    <p
+                      class="font-barlow font-medium 2xl:text-9xl xl:text-9xl lg:text-9xl md:text-8xl sm:text-8xl xs:text-7xl xxs:text-7xl tracking-wide text-white"
+                    >
+                      {{ weather.main?.temp | number : "1.0-0" }}
+                    </p>
+                    <img
+                      class="w-20 h-full"
+                      src="assets/images/svg/celcius.svg"
+                      alt="celcius"
+                    />
+                  </div>
+                </div>
+                <div class="temperature-range">
+                  <p
+                    class="font-comfortaa font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base tracking-wide mb-1"
+                  >
+                    Temperature
+                  </p>
+                  <p
+                    class="font-comfortaa font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base tracking-wide"
+                  >
+                    {{ weather.main?.temp_max | number : "1.0-0" }}-{{
+                      weather.main?.temp_min | number : "1.0-0"
+                    }}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="w-4/5 weather-icon flex items-center">
-          <div class="svg-icon">
-            <app-weather-icon
-              [main]="true"
-              [weatherType]="
-                weather && weather.weather && weather.weather.length > 0
-                  ? weather.weather![0].main!
-                  : ''
-              "
-            ></app-weather-icon>
-            <!-- <img
+          <div class="w-4/5 weather-icon flex items-center justify-center">
+            <div class="svg-icon">
+              <app-weather-icon
+                [main]="true"
+                [weatherType]="
+                  weather && weather.weather && weather.weather.length > 0
+                    ? weather.weather![0].main!
+                    : ''
+                "
+              ></app-weather-icon>
+              <!-- <img
               class="w-full"
               [src]="'assets/images/svg/cloudy-lg.svg'"
               alt="weather-icon"
             /> -->
+            </div>
+          </div>
+          <div class="w-full weather-info ps-7">
+            <div class="weather-condition mb-8">
+              <p
+                class="font-extrabold tracking-widest font-yeseva 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-2xl xxs:text-2xl uppercase text-white"
+              >
+                {{
+                  weather.weather && weather.weather.length > 0
+                    ? weather.weather[0].description
+                    : ""
+                }}
+              </p>
+              <p
+                class="font-comfortaa tracking-wide 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl sm:text-xl xs:text-lg xxs:text-lg capitalize text-white"
+              >
+                {{ today | customizeDate : "yyyy EEE, MMMM d" }}
+              </p>
+            </div>
+
+            <div class="humidity-info">
+              <p
+                class="font-comfortaa tracking-wide font-bold 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl sm:text-xl xs:text-lg xxs:text-lg capitalize text-black"
+              >
+                Humidity
+              </p>
+              <p
+                class="font-comfortaa tracking-wide font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base text-black"
+              >
+                {{ weather.main?.humidity }}%
+              </p>
+            </div>
           </div>
         </div>
-        <div class="w-full weather-info ps-7">
-          <div class="weather-condition mb-8">
+
+        <div class="weekly-weather-updates mt-16">
+          <div class="city-title mb-5">
             <p
-              class="font-extrabold tracking-widest font-yeseva 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-2xl xxs:text-2xl uppercase text-white"
+              class="font-yeseva tracking-widest font-bold text-3xl text-white capitalize"
             >
-              {{
-                weather.weather && weather.weather.length > 0
-                  ? weather.weather[0].description
-                  : ""
-              }}
-            </p>
-            <p
-              class="font-comfortaa tracking-wide 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl sm:text-xl xs:text-lg xxs:text-lg capitalize text-white"
-            >
-              {{ today | customizeDate : "yyyy EEE, MMMM d" }}
+              {{ weather.name }}
             </p>
           </div>
 
-          <div class="humidity-info">
-            <p
-              class="font-comfortaa tracking-wide font-bold 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl sm:text-xl xs:text-lg xxs:text-lg capitalize text-black"
-            >
-              Humidity
-            </p>
-            <p
-              class="font-comfortaa tracking-wide font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base text-black"
-            >
-              {{ weather.main?.humidity }}%
-            </p>
+          <div class="dail-forecast-list flex justify-center">
+            <app-weekly-weather [forecast]="forecast"></app-weekly-weather>
           </div>
         </div>
-      </div>
+      </ng-container>
 
-      <div class="weekly-weather-updates mt-16">
-        <div class="city-title mb-5">
-          <p
-            class="font-yeseva tracking-widest font-bold text-3xl text-white capitalize"
+      <ng-template #datanotfound>
+        <div class="w-full h-full mt-20">
+          <h1
+            class="text-7xl xl:text-6xl lg:text-5xl md:text-4 xl sm:text-4xl uppercase tracking-widest font-yeseva text-center text-white"
           >
-            {{ weather.name }}
-          </p>
+            Data not available!!
+          </h1>
         </div>
-
-        <div class="dail-forecast-list flex justify-center">
-          <app-weekly-weather [forecast]="forecast"></app-weekly-weather>
-        </div>
-      </div>
+      </ng-template>
     </div>
   </div>
 
