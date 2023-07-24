@@ -1,27 +1,57 @@
-# WeatherForecastApp
+# Weather Forecast Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+The Weather Forecast Application is build using Angular version 16 and using free API from [openweathermap.org](https://openweathermap.org/). View the hosted application [weather-forecast-app](/).
 
-## Development server
+## Application Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Angular 16 & Angular CLI](https://angular.io/cli)
 
-## Code scaffolding
+## Running Locally
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone or Download this repo onto your machine.
 
-## Build
+```bash
+  git clone https://github.com/Zeel-Gajrawala/weather-forecast-app.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Install [application requirements](#application-requirements) if not done so already.
 
-## Running unit tests
+## Run Using Docker
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Perform below listed steps:
 
-## Running end-to-end tests
+a. Open application directory in your terminal and run
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+  docker compose up
+```
 
-## Further help
+`When docker finishes building the application, your server will be up and running.`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+b. Open http://localhost:4200/ on your browser to run your frontend.
+
+## Run Using AngularCLI and NPM
+
+Perform below listed steps:
+
+a. Open application directory in your terminal and run
+
+```bash
+  npm install
+```
+
+b. To Start the Angular Server
+
+```bash
+  npm start
+```
+
+#### OR,
+
+```bash
+  ng serve
+```
+
+`Your server is running now.`
+
+c. Open http://localhost:4200/ on your browser to run your frontend.
