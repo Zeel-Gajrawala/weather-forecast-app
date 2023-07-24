@@ -1,6 +1,6 @@
 # Weather Forecast Application
 
-The Weather Forecast Application is build using Angular version 16 and using free API from [openweathermap.org](https://openweathermap.org/). View the hosted application [weather-forecast-app](/).
+The Weather Forecast Application is build using Angular version 16 and using free API from [openweathermap.org](https://openweathermap.org/). View the hosted application [weather-forecast-app](https://zeel-gajrawala.github.io/weather-forecast-app/).
 
 ## Application Requirements
 
