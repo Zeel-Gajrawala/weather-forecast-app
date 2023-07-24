@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class WeatherIconComponent {
 
+  @Input() main: boolean = true;
   @Input() weatherType: string = '';
 
 }

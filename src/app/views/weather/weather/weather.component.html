@@ -110,18 +110,19 @@
         </div>
         <div class="w-4/5 weather-icon flex items-center">
           <div class="svg-icon">
-            <!-- <app-weather-icon
+            <app-weather-icon
+              [main]="true"
               [weatherType]="
                 weather && weather.weather && weather.weather.length > 0
                   ? weather.weather![0].main!
                   : ''
               "
-            ></app-weather-icon> -->
-            <img
+            ></app-weather-icon>
+            <!-- <img
               class="w-full"
               [src]="'assets/images/svg/cloudy-lg.svg'"
               alt="weather-icon"
-            />
+            /> -->
           </div>
         </div>
         <div class="w-full weather-info ps-7">

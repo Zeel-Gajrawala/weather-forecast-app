@@ -1,53 +1,111 @@
-<div class="weather-icon" [ngSwitch]="true">
-  <img
-    *ngSwitchCase="weatherType === 'Rain'"
-    src="assets/images/svg/raining.svg"
-    [alt]="weatherType"
-  />
-  <img
-    *ngSwitchCase="weatherType === 'Thunderstorm'"
-    src="assets/images/svg/thunder-cloud.svg"
-    [alt]="weatherType"
-  />
-  <img
-    *ngSwitchCase="weatherType === 'Drizzle'"
-    src="assets/images/svg/drizzle.svg"
-    [alt]="weatherType"
-  />
-  <img
-    *ngSwitchCase="weatherType === 'Clear'"
-    src="assets/images/svg/sunny.svg"
-    [alt]="weatherType"
-  />
-  <img
-    *ngSwitchCase="weatherType === 'Clouds'"
-    src="assets/images/svg/clouds.svg"
-    [alt]="weatherType"
-  />
-  <img
-    *ngSwitchCase="'Snow'"
-    src="assets/images/svg/snow.svg"
-    [alt]="weatherType"
-  />
-  <img
-    *ngSwitchCase="
-      weatherType === 'Mist' ||
-      weatherType === 'Smoke' ||
-      weatherType === 'Haze' ||
-      weatherType === 'Dust' ||
-      weatherType === 'Fog' ||
-      weatherType === 'Sand' ||
-      weatherType === 'Dust' ||
-      weatherType === 'Ash' ||
-      weatherType === 'Squall' ||
-      weatherType === 'Tornado'
-    "
-    src="assets/images/svg/windy.svg"
-    [alt]="weatherType"
-  />
-  <img
-    *ngSwitchDefault
-    src="assets/images/svg/white-cloud.svg"
-    [alt]="weatherType"
-  />
-</div>
+<ng-container *ngIf="!main">
+  <div class="weather-icon" [ngSwitch]="true">
+    <img
+      *ngSwitchCase="weatherType === 'Rain'"
+      src="assets/images/svg/raining.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="weatherType === 'Thunderstorm'"
+      src="assets/images/svg/thunder-cloud.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="weatherType === 'Drizzle'"
+      src="assets/images/svg/drizzle.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="weatherType === 'Clear'"
+      src="assets/images/svg/sunny.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="weatherType === 'Clouds'"
+      src="assets/images/svg/clouds.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="'Snow'"
+      src="assets/images/svg/snow.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="
+        weatherType === 'Mist' ||
+        weatherType === 'Smoke' ||
+        weatherType === 'Haze' ||
+        weatherType === 'Dust' ||
+        weatherType === 'Fog' ||
+        weatherType === 'Sand' ||
+        weatherType === 'Dust' ||
+        weatherType === 'Ash' ||
+        weatherType === 'Squall' ||
+        weatherType === 'Tornado'
+      "
+      src="assets/images/svg/windy.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchDefault
+      src="assets/images/svg/white-cloud.svg"
+      [alt]="weatherType"
+    />
+  </div>
+</ng-container>
+
+<ng-container *ngIf="main">
+  <div class="class-main-weather-icon" [ngSwitch]="true">
+    <img
+      *ngSwitchCase="weatherType === 'Rain'"
+      src="assets/images/svg/white-raining.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="weatherType === 'Thunderstorm'"
+      src="assets/images/svg/white-thunder-cloud.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="weatherType === 'Drizzle'"
+      src="assets/images/svg/white-drizzle.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="weatherType === 'Clear'"
+      src="assets/images/svg/sunny.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="weatherType === 'Clouds'"
+      src="assets/images/svg/white-cloud.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="'Snow'"
+      src="assets/images/svg/white-snow.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchCase="
+        weatherType === 'Mist' ||
+        weatherType === 'Smoke' ||
+        weatherType === 'Haze' ||
+        weatherType === 'Dust' ||
+        weatherType === 'Fog' ||
+        weatherType === 'Sand' ||
+        weatherType === 'Dust' ||
+        weatherType === 'Ash' ||
+        weatherType === 'Squall' ||
+        weatherType === 'Tornado'
+      "
+      src="assets/images/svg/white-windy.svg"
+      [alt]="weatherType"
+    />
+    <img
+      *ngSwitchDefault
+      src="assets/images/svg/white-cloud.svg"
+      [alt]="weatherType"
+    />
+  </div>
+</ng-container>

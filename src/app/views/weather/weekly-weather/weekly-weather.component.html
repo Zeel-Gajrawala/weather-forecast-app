@@ -15,7 +15,10 @@
       </div>
 
       <div class="weekday-weather-icon mb-10">
-        <app-weather-icon [weatherType]="forecast.weather!"></app-weather-icon>
+        <app-weather-icon
+          [main]="false"
+          [weatherType]="forecast.weather!"
+        ></app-weather-icon>
       </div>
 
       <div class="weekday-temperature-detail absolute bottom-3 inset-x-0">
