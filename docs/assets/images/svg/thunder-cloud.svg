@@ -1,0 +1,289 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197 161" width="197" height="161">
+
+	<defs>
+		<linearGradient id="g1" x1="-233.5" y1="144" x2="-233.5" y2="26" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#87b2e4"/>
+			<stop offset=".997" stop-color="#d2dfee"/>
+			<stop offset="1" stop-color="#d2dfee"/>
+		</linearGradient>
+		<image width="197" height="162" id="img1" href="data:image/png;base64,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"/>
+		<linearGradient id="g2" x1="428.5" y1="113" x2="428.5" y2="-4" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#87b2e4"/>
+			<stop offset=".997" stop-color="#d2dfee"/>
+			<stop offset="1" stop-color="#d2dfee"/>
+		</linearGradient>
+		<linearGradient id="g3" x1="1072.5" y1="114" x2="1072.5" y2="-3" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#87b2e4"/>
+			<stop offset=".997" stop-color="#d2dfee"/>
+			<stop offset="1" stop-color="#d2dfee"/>
+		</linearGradient>
+		<linearGradient id="g4" x1="1390.5" y1="118" x2="1390.5" y2="1" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#87b2e4"/>
+			<stop offset=".997" stop-color="#d2dfee"/>
+			<stop offset="1" stop-color="#d2dfee"/>
+		</linearGradient>
+		<linearGradient id="g5" x1="1701.5" y1="113" x2="1701.5" y2="-4" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#87b2e4"/>
+			<stop offset=".997" stop-color="#d2dfee"/>
+			<stop offset="1" stop-color="#d2dfee"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #ffffff } 
+		.t1 { font-size: 62px;text-transform: uppercase;fill: #000000;font-weight: 400;font-family: "YesevaOne-Regular", "Yeseva One" } 
+		.s2 { fill: #f8b122 } 
+		.s3 { fill: #fabd43 } 
+		.s4 { fill: #fcce72 } 
+		.t5 { font-size: 8px;fill: #ffffff;font-weight: 700;font-family: "Comfortaa-Bold", "Comfortaa" } 
+		.t6 { font-size: 8px;text-transform: uppercase;fill: #ffffff;font-weight: 700;font-family: "Comfortaa-Bold", "Comfortaa" } 
+		.t7 { font-size: 10px;text-transform: uppercase;fill: #ffffff;font-weight: 700;font-family: "AveriaSerifLibre-Bold", "Averia Serif Libre" } 
+		.t8 { font-size: 10px;fill: #ffffff;font-weight: 700;font-family: "AveriaSerifLibre-Bold", "Averia Serif Libre" } 
+		.t9 { font-size: 9px;fill: #000000;font-weight: 700;font-family: "Comfortaa-Bold", "Comfortaa" } 
+		.t10 { font-size: 10px;text-transform: uppercase;fill: #000000;font-weight: 700;font-family: "Comfortaa-Bold", "Comfortaa" } 
+		.t11 { font-size: 10px;fill: #000000;font-weight: 700;font-family: "Comfortaa-Bold", "Comfortaa" } 
+		.s12 { fill: #c11111 } 
+		.t13 { font-size: 8px;text-transform: uppercase;fill: #ffffff;font-weight: 400;font-family: "BarlowCondensed-Regular", "Barlow Condensed" } 
+		.t14 { font-size: 103px;text-transform: uppercase;fill: #ffffff;font-weight: 400;font-family: "BarlowCondensed-Regular", "Barlow Condensed" } 
+		.s15 { fill: #dfe9f5 } 
+		.s16 { fill: url(#g1) } 
+		.t17 { font-size: 6px;text-transform: uppercase;fill: #000000;font-weight: 400;font-family: "BarlowCondensed-Regular", "Barlow Condensed" } 
+		.t18 { font-size: 103px;text-transform: uppercase;fill: #000000;font-weight: 400;font-family: "BarlowCondensed-Regular", "Barlow Condensed" } 
+		.t19 { font-size: 10px;fill: #000000;font-weight: 400;font-family: "BarlowCondensed-Regular", "Barlow Condensed" } 
+		.s20 { fill: url(#g2) } 
+		.s21 { fill: #75a1d5 } 
+		.t22 { font-size: 10px;text-transform: uppercase;fill: #000000;font-weight: 400;font-family: "BarlowCondensed-Regular", "Barlow Condensed" } 
+		.s23 { fill: url(#g3) } 
+		.s24 { fill: none;stroke: #75a1d5;stroke-width: 6 } 
+		.s25 { fill: url(#g4) } 
+		.s26 { fill: url(#g5) } 
+	</style>
+	<path id="圆角矩形 1" class="s0" d="m-379-1226h2184c5.5 0 10 4.5 10 10v274c0 5.5-4.5 10-10 10h-2184c-5.5 0-10-4.5-10-10v-274c0-5.5 4.5-10 10-10z"/>
+	<text id="Weather forecast" style="transform: matrix(3.087,0,0,3.091,-304.144,-1010.624)" >
+		<tspan x="0" y="0" class="t1">W</tspan><tspan  y="0" class="t1">EATHER FORECAST
+</tspan>
+	</text>
+	<g id="组 2">
+		<g id="yang">
+			<path id="椭圆 2" class="s2" d="m792.2-738.5c65.3 19.3 102.6 87.8 83.3 153-19.3 65.2-87.9 102.5-153.2 83.2-65.3-19.2-102.7-87.7-83.4-153 19.3-65.2 87.9-102.5 153.3-83.2z"/>
+			<path id="椭圆 2 拷贝" class="s3" d="m783.5-729.2c62.3 18.3 98 83.7 79.6 145.9-18.5 62.2-83.9 97.8-146.2 79.4-62.4-18.4-98-83.7-79.6-145.9 18.4-62.3 83.9-97.8 146.2-79.4z"/>
+			<path id="椭圆 2 拷贝 2" class="s4" d="m767.5-708.9c53.9 15.9 84.6 72.3 68.8 126-15.9 53.7-72.5 84.4-126.4 68.5-53.8-15.8-84.6-72.3-68.8-126 15.9-53.7 72.5-84.4 126.4-68.5z"/>
+			<path id="圆角矩形 2" class="s2" d="m811.4-805.7l1.1 0.3c5.8 1.8 9.1 7.8 7.4 13.6l-10.2 34.6c-1.7 5.8-7.8 9.1-13.6 7.4l-1.1-0.3c-5.8-1.7-9.1-7.8-7.4-13.6l10.2-34.6c1.7-5.8 7.8-9.1 13.6-7.4z"/>
+			<path id="圆角矩形 2 拷贝" class="s2" d="m718.1-490.2l1.1 0.3c5.8 1.8 9.1 7.8 7.4 13.6l-10.2 34.6c-1.7 5.8-7.8 9.1-13.6 7.4l-1.1-0.3c-5.8-1.7-9.1-7.8-7.4-13.6l10.2-34.6c1.7-5.8 7.8-9.1 13.6-7.4z"/>
+			<path id="圆角矩形 2 拷贝 2" class="s2" d="m901-589.5l34.7 10.2c5.8 1.7 9.1 7.8 7.4 13.5l-0.3 1.2c-1.7 5.7-7.8 9.1-13.6 7.3l-34.7-10.2c-5.8-1.7-9.1-7.8-7.4-13.6l0.3-1.1c1.8-5.8 7.8-9.1 13.6-7.3z"/>
+			<path id="圆角矩形 2 拷贝 2" class="s2" d="m585-682.7l34.7 10.2c5.8 1.7 9.1 7.8 7.4 13.6l-0.3 1.1c-1.7 5.8-7.8 9.1-13.6 7.4l-34.7-10.2c-5.8-1.7-9.1-7.8-7.4-13.6l0.3-1.1c1.7-5.8 7.8-9.1 13.6-7.4z"/>
+			<path id="圆角矩形 2 拷贝 3" class="s2" d="m708.8-807.4l5.8-1.4c4.6-1.1 9.2 1.8 10.3 6.3l9.6 39.8c1.1 4.6-1.7 9.2-6.3 10.3l-5.8 1.4c-4.6 1.1-9.2-1.7-10.3-6.3l-9.6-39.8c-1.1-4.6 1.7-9.2 6.3-10.3z"/>
+			<path id="圆角矩形 2 拷贝 3" class="s2" d="m786-487.5l5.8-1.4c4.6-1.1 9.2 1.7 10.3 6.2l9.6 39.8c1.1 4.6-1.7 9.2-6.3 10.3l-5.8 1.4c-4.6 1.1-9.2-1.7-10.3-6.3l-9.6-39.8c-1.1-4.5 1.7-9.1 6.3-10.2z"/>
+			<path id="圆角矩形 2 拷贝 3" class="s2" d="m894.7-664.9l39.8-9.6c4.6-1.1 9.2 1.7 10.3 6.3l1.4 5.8c1.1 4.6-1.7 9.2-6.3 10.3l-39.8 9.6c-4.6 1.1-9.2-1.8-10.3-6.3l-1.4-5.8c-1.1-4.6 1.7-9.2 6.3-10.3z"/>
+			<path id="圆角矩形 2 拷贝 3" class="s2" d="m574.3-587.8l39.9-9.6c4.5-1.1 9.1 1.7 10.3 6.3l1.4 5.8c1.1 4.5-1.8 9.1-6.3 10.3l-39.9 9.5c-4.6 1.1-9.2-1.7-10.3-6.3l-1.4-5.8c-1.1-4.5 1.7-9.1 6.3-10.2z"/>
+			<path id="圆角矩形 2 拷贝 4" class="s2" d="m621.4-758.1l4.4-4.2c3.4-3.2 8.8-3.1 12 0.4l28.3 29.6c3.2 3.4 3.1 8.8-0.3 12.1l-4.4 4.1c-3.4 3.2-8.8 3.1-12-0.3l-28.3-29.7c-3.2-3.4-3.1-8.8 0.3-12z"/>
+			<path id="圆角矩形 2 拷贝 4" class="s2" d="m848.5-519.7l4.3-4.1c3.4-3.3 8.8-3.1 12.1 0.3l28.2 29.6c3.2 3.4 3.1 8.8-0.3 12.1l-4.3 4.1c-3.5 3.2-8.9 3.1-12.1-0.3l-28.2-29.7c-3.3-3.4-3.2-8.8 0.3-12z"/>
+			<path id="圆角矩形 2 拷贝 4" class="s2" d="m853.7-727.6l29.7-28.1c3.4-3.3 8.8-3.1 12.1 0.3l4.1 4.3c3.3 3.4 3.1 8.8-0.3 12l-29.7 28.2c-3.4 3.3-8.8 3.1-12.1-0.3l-4.1-4.3c-3.2-3.4-3.1-8.8 0.3-12.1z"/>
+			<path id="圆角矩形 2 拷贝 4" class="s2" d="m614.9-500.9l29.7-28.2c3.4-3.2 8.8-3.1 12.1 0.3l4.1 4.3c3.2 3.5 3.1 8.9-0.3 12.1l-29.7 28.2c-3.4 3.2-8.8 3.1-12.1-0.3l-4.1-4.3c-3.2-3.5-3.1-8.9 0.3-12.1z"/>
+		</g>
+		<path id="椭圆 4" class="s0" d="m355.8-587.2c38 0 68.8 30.8 68.8 68.7 0 38-30.8 68.7-68.8 68.7-38 0-68.8-30.7-68.8-68.7 0-37.9 30.8-68.7 68.8-68.7zm92.3-95.7c49.3 0 89.2 39.9 89.2 89.1 0 49.2-39.9 89.1-89.2 89.1-49.3 0-89.2-39.9-89.2-89.1 0-49.2 39.9-89.1 89.2-89.1zm169.6-59.5c63 0 114.1 51.1 114.1 114 0 62.9-51.1 114-114.1 114-63 0-114.1-51.1-114.1-114 0-62.9 51.1-114 114.1-114zm132.7 106.4c40.7 0 73.7 33 73.7 73.7 0 40.6-33 73.6-73.7 73.6-40.7 0-73.7-33-73.7-73.6 0-40.7 33-73.7 73.7-73.7zm-269.9 54.1c54.4 0 98.6 44.1 98.6 98.5 0 54.3-44.2 98.4-98.6 98.4-54.4 0-98.5-44.1-98.5-98.4 0-54.4 44.1-98.5 98.5-98.5zm154.9-23.9c53.2 0 96.4 43.1 96.4 96.2 0 53.2-43.2 96.2-96.4 96.2-53.2 0-96.3-43-96.3-96.2 0-53.1 43.1-96.2 96.3-96.2zm89.3 71c30.4 0 55 24.6 55 54.9 0 30.4-24.6 55-55 55-30.4 0-55.1-24.6-55.1-55 0-30.3 24.7-54.9 55.1-54.9zm-211.8-188.1c25.8 0 46.6 20.9 46.6 46.6 0 25.7-20.8 46.6-46.6 46.6-25.7 0-46.6-20.9-46.6-46.6 0-25.7 20.9-46.6 46.6-46.6zm320.5 113.5c30.7 0 55.5 24.9 55.5 55.5 0 30.6-24.8 55.4-55.5 55.4-30.6 0-55.5-24.8-55.5-55.4 0-30.6 24.9-55.5 55.5-55.5zm-17.7 66.6c35.5 0 64.3 28.7 64.3 64.3 0 35.5-28.8 64.2-64.3 64.2-35.6 0-64.4-28.7-64.4-64.2 0-35.6 28.8-64.3 64.4-64.3z"/>
+	</g>
+	<text id="2028 mon, June 13" style="transform: matrix(7.976,0,0,7.969,1034.115,-605.908)" >
+		<tspan x="0" y="0" class="t5">2028 </tspan><tspan  y="0" class="t6">M</tspan><tspan  y="0" class="t5">on, June 13
+</tspan>
+	</text>
+	<text id="partly cloudy" style="transform: matrix(9.003,0,0,8.995,1033.633,-698.839)" >
+		<tspan x="0" y="0" class="t7">P</tspan><tspan  y="0" class="t7">ARTLY CLOUDY
+</tspan>
+	</text>
+	<text id="city" style="transform: matrix(7.387,0,0,7.381,-346.863,-159.188)" >
+		<tspan x="0" y="0" class="t7">C</tspan><tspan  y="0" class="t8">ity
+</tspan>
+	</text>
+	<text id="Humidity  " style="transform: matrix(6.81,0,0,6.792,1032.696,-461.059)" >
+		<tspan x="0" y="0" class="t9">Humidity 
+</tspan>
+	</text>
+	<text id="68%" style="transform: matrix(6.81,0,0,6.792,1034.324,-369.475)" >
+		<tspan x="0" y="0" class="t9">68%
+</tspan>
+	</text>
+	<text id="temperature" style="transform: matrix(5.742,0,0,5.727,-74.275,-422.159)" >
+		<tspan x="0" y="0" class="t10">T</tspan><tspan  y="0" class="t11">emperature
+</tspan>
+	</text>
+	<text id="30-22" style="transform: matrix(5.139,0,0,5.125,-72.638,-347.899)" >
+		<tspan x="0" y="0" class="t10">30-22
+</tspan>
+	</text>
+	<path id="椭圆 4" class="s0" d="m-145.7-406.9c19 0 34.4 15.4 34.4 34.4 0 19-15.4 34.4-34.4 34.4-19 0-34.4-15.4-34.4-34.4 0-19 15.4-34.4 34.4-34.4zm0-119c8.2 0 14.9 6.6 14.9 14.8v117.7c0 8.2-6.7 14.9-14.9 14.9-8.2 0-14.8-6.7-14.8-14.9v-117.7c0-8.2 6.6-14.8 14.8-14.8z"/>
+	<path id="椭圆 4 拷贝" class="s12" d="m-145.2-397.8c13.7 0 24.8 11.2 24.8 24.9 0 13.7-11.1 24.8-24.8 24.8-13.8 0-24.9-11.1-24.9-24.8 0-13.7 11.1-24.9 24.9-24.9zm-0.6-94.3c5.7 0 10.2 4.5 10.2 10.1v94.5c0 5.6-4.5 10.2-10.2 10.2-5.6 0-10.2-4.6-10.2-10.2v-94.5c0-5.6 4.6-10.1 10.2-10.1z"/>
+	<path id="椭圆 5" class="s12" d="m-145.5-515c3.6 0 6.5 2.9 6.5 6.5 0 3.6-2.9 6.5-6.5 6.5-3.6 0-6.5-2.9-6.5-6.5 0-3.6 2.9-6.5 6.5-6.5z"/>
+	<text id="28" style="transform: matrix(39.982,0,0,39.981,-82.005,-556.813)" >
+		<tspan x="0" y="0" class="t13">28
+</tspan>
+	</text>
+	<text id="°c" style="transform: matrix(1.181,0,0,1.181,174.981,-741.015)" >
+		<tspan x="0" y="0" class="t14">°</tspan><tspan  y="0" class="t14">C
+</tspan>
+	</text>
+	<g id="1">
+		<path id="1" class="s15" d="m-343-119h238c11 0 20 9 20 20v368c0 11-9 20-20 20h-238c-11 0-20-9-20-20v-368c0-11 9-20 20-20z"/>
+		<g id="组 2 拷贝">
+			<g id="yang">
+				<path id="椭圆 2" class="s2" d="m-166 27.3c21.6 6.3 33.9 28.9 27.6 50.5-6.4 21.5-29.1 33.8-50.7 27.5-21.6-6.4-33.9-29-27.6-50.5 6.4-21.6 29.1-33.9 50.7-27.5z"/>
+				<path id="椭圆 2 拷贝" class="s3" d="m-168.9 30.3c20.6 6.1 32.4 27.7 26.3 48.2-6.1 20.6-27.7 32.3-48.3 26.2-20.6-6-32.4-27.6-26.3-48.2 6.1-20.5 27.7-32.2 48.3-26.2z"/>
+				<path id="椭圆 2 拷贝 2" class="s4" d="m-174.2 37c17.8 5.3 28 23.9 22.8 41.7-5.3 17.7-24 27.8-41.8 22.6-17.8-5.3-28-23.9-22.7-41.6 5.2-17.8 23.9-27.9 41.7-22.7z"/>
+				<path id="圆角矩形 2" class="s2" d="m-159.6 5.1l0.3 0.1c2 0.6 3 2.6 2.5 4.5l-3.4 11.4c-0.6 1.9-2.6 3-4.5 2.4l-0.4-0.1c-1.9-0.5-3-2.5-2.4-4.4l3.4-11.5c0.5-1.9 2.6-3 4.5-2.4z"/>
+				<path id="圆角矩形 2 拷贝" class="s2" d="m-190.5 109.3l0.4 0.1c1.9 0.5 3 2.5 2.4 4.5l-3.4 11.4c-0.5 1.9-2.5 3-4.4 2.4l-0.4-0.1c-1.9-0.5-3-2.5-2.5-4.5l3.4-11.4c0.6-1.9 2.6-3 4.5-2.4z"/>
+				<path id="圆角矩形 2 拷贝 2" class="s2" d="m-130 76.5l11.5 3.3c1.9 0.6 3 2.6 2.4 4.5l-0.1 0.4c-0.6 1.9-2.6 3-4.5 2.4l-11.5-3.4c-1.9-0.5-3-2.5-2.4-4.4l0.1-0.4c0.6-1.9 2.6-3 4.5-2.4z"/>
+				<path id="圆角矩形 2 拷贝 2" class="s2" d="m-234.5 45.7l11.5 3.4c1.9 0.5 3 2.5 2.4 4.5l-0.1 0.3c-0.5 1.9-2.6 3-4.5 2.5l-11.4-3.4c-2-0.6-3-2.6-2.5-4.5l0.1-0.4c0.6-1.9 2.6-3 4.5-2.4z"/>
+				<path id="圆角矩形 2 拷贝 3" class="s2" d="m-193.6 4.5l2-0.4c1.5-0.4 3 0.5 3.4 2l3.1 13.2c0.4 1.5-0.5 3-2 3.4l-2 0.4c-1.5 0.4-3-0.5-3.4-2l-3.1-13.2c-0.4-1.5 0.5-3 2-3.4z"/>
+				<path id="圆角矩形 2 拷贝 3" class="s2" d="m-168 110.1l1.9-0.4c1.5-0.4 3 0.5 3.4 2.1l3.2 13.1c0.3 1.5-0.6 3-2.1 3.4l-1.9 0.4c-1.6 0.4-3.1-0.5-3.4-2l-3.2-13.2c-0.4-1.5 0.5-3 2.1-3.4z"/>
+				<path id="圆角矩形 2 拷贝 3" class="s2" d="m-132.1 51.6l13.2-3.2c1.5-0.4 3 0.6 3.4 2.1l0.4 1.9c0.4 1.5-0.5 3-2.1 3.4l-13.1 3.2c-1.5 0.3-3.1-0.6-3.4-2.1l-0.5-1.9c-0.4-1.5 0.6-3.1 2.1-3.4z"/>
+				<path id="圆角矩形 2 拷贝 3" class="s2" d="m-238 77l13.2-3.1c1.5-0.4 3 0.5 3.4 2l0.4 1.9c0.4 1.6-0.5 3.1-2.1 3.4l-13.1 3.2c-1.5 0.4-3.1-0.6-3.4-2.1l-0.5-1.9c-0.4-1.5 0.6-3 2.1-3.4z"/>
+				<path id="圆角矩形 2 拷贝 4" class="s2" d="m-222.4 20.8l1.4-1.4c1.1-1 2.9-1 4 0.1l9.3 9.8c1.1 1.1 1 2.9-0.1 4l-1.4 1.4c-1.2 1-2.9 1-4-0.1l-9.3-9.8c-1.1-1.2-1.1-2.9 0.1-4z"/>
+				<path id="圆角矩形 2 拷贝 4" class="s2" d="m-147.4 99.5l1.4-1.3c1.2-1.1 3-1.1 4 0.1l9.4 9.8c1 1.1 1 2.9-0.1 3.9l-1.5 1.4c-1.1 1.1-2.9 1-4-0.1l-9.3-9.8c-1.1-1.1-1-2.9 0.1-4z"/>
+				<path id="圆角矩形 2 拷贝 4" class="s2" d="m-145.6 30.9l9.8-9.3c1.1-1.1 2.9-1 4 0.1l1.3 1.4c1.1 1.1 1 2.9-0.1 4l-9.8 9.3c-1.1 1.1-2.9 1-4-0.1l-1.3-1.4c-1.1-1.2-1.1-2.9 0.1-4z"/>
+				<path id="圆角矩形 2 拷贝 4" class="s2" d="m-224.6 105.7l9.8-9.3c1.1-1 2.9-1 4 0.1l1.4 1.5c1 1.1 1 2.9-0.1 3.9l-9.8 9.3c-1.2 1.1-3 1.1-4-0.1l-1.4-1.4c-1.1-1.1-1-2.9 0.1-4z"/>
+			</g>
+			<path id="椭圆 4" class="s16" d="m-310.3 77.2c12.6 0 22.8 10.2 22.8 22.7 0 12.6-10.2 22.7-22.8 22.7-12.5 0-22.7-10.1-22.7-22.7 0-12.5 10.2-22.7 22.7-22.7zm30.6-31.6c16.3 0 29.5 13.2 29.5 29.4 0 16.3-13.2 29.5-29.5 29.5-16.3 0-29.5-13.2-29.5-29.5 0-16.2 13.2-29.4 29.5-29.4zm56-19.6c20.8 0 37.7 16.8 37.7 37.6 0 20.8-16.9 37.7-37.7 37.7-20.8 0-37.7-16.9-37.7-37.7 0-20.8 16.9-37.6 37.7-37.6zm43.9 35.1c13.4 0 24.4 10.9 24.4 24.3 0 13.5-11 24.3-24.4 24.3-13.5 0-24.4-10.8-24.4-24.3 0-13.4 10.9-24.3 24.4-24.3zm-89.2 17.9c18 0 32.6 14.6 32.6 32.5 0 17.9-14.6 32.5-32.6 32.5-18 0-32.6-14.6-32.6-32.5 0-17.9 14.6-32.5 32.6-32.5zm51.2-7.9c17.6 0 31.8 14.2 31.8 31.8 0 17.5-14.2 31.7-31.8 31.7-17.6 0-31.9-14.2-31.9-31.7 0-17.6 14.3-31.8 31.9-31.8zm29.5 23.4c10 0 18.2 8.1 18.2 18.2 0 10-8.2 18.1-18.2 18.1-10.1 0-18.2-8.1-18.2-18.1 0-10.1 8.1-18.2 18.2-18.2zm-70-62.1c8.5 0 15.4 6.9 15.4 15.4 0 8.5-6.9 15.4-15.4 15.4-8.5 0-15.4-6.9-15.4-15.4 0-8.5 6.9-15.4 15.4-15.4zm105.9 37.5c10.2 0 18.4 8.2 18.4 18.3 0 10.1-8.2 18.3-18.4 18.3-10.1 0-18.3-8.2-18.3-18.3 0-10.1 8.2-18.3 18.3-18.3zm-5.8 22c11.7 0 21.2 9.5 21.2 21.2 0 11.7-9.5 21.2-21.2 21.2-11.8 0-21.3-9.5-21.3-21.2 0-11.7 9.5-21.2 21.3-21.2z"/>
+		</g>
+		<text id="28" style="transform: matrix(6.027,0,0,6.027,-241.378,254.378)" >
+			<tspan x="0" y="0" class="t17">28
+</tspan>
+		</text>
+		<text id="°c" style="transform: matrix(.178,0,0,.178,-210.64,237.612)" >
+			<tspan x="0" y="0" class="t18">°</tspan><tspan  y="0" class="t18">C
+</tspan>
+		</text>
+		<text id="Mon" style="transform: matrix(7.318,0,0,7.318,-274.993,-37.41)" >
+			<tspan x="0" y="0" class="t19">Mon
+</tspan>
+		</text>
+	</g>
+	<g id="2">
+		<use id="组 1" href="#img1" transform="matrix(1,0,0,1,0,-1)"/>
+	</g>
+	<g id="3">
+		<path id="3" class="s15" d="m301-119h238c11 0 20 9 20 20v368c0 11-9 20-20 20h-238c-11 0-20-9-20-20v-368c0-11 9-20 20-20z"/>
+		<g id="组 1 拷贝">
+			<path id="椭圆 4 拷贝 2" class="s20" d="m352.5 46.8c12.5 0 22.5 10.1 22.5 22.5 0 12.4-10 22.5-22.5 22.5-12.4 0-22.5-10.1-22.5-22.5 0-12.4 10.1-22.5 22.5-22.5zm30.2-31.3c16.2 0 29.2 13 29.2 29.1 0 16.1-13 29.2-29.2 29.2-16.1 0-29.2-13.1-29.2-29.2 0-16.1 13.1-29.1 29.2-29.1zm55.5-19.5c20.6 0 37.4 16.7 37.4 37.3 0 20.6-16.8 37.3-37.4 37.3-20.6 0-37.3-16.7-37.3-37.3 0-20.6 16.7-37.3 37.3-37.3zm43.5 34.8c13.3 0 24.1 10.8 24.1 24.1 0 13.3-10.8 24.1-24.1 24.1-13.3 0-24.1-10.8-24.1-24.1 0-13.3 10.8-24.1 24.1-24.1zm-88.4 17.8c17.9 0 32.3 14.4 32.3 32.2 0 17.8-14.4 32.2-32.3 32.2-17.8 0-32.2-14.4-32.2-32.2 0-17.8 14.4-32.2 32.2-32.2zm50.7-7.9c17.4 0 31.6 14.1 31.6 31.5 0 17.4-14.2 31.5-31.6 31.5-17.4 0-31.5-14.1-31.5-31.5 0-17.4 14.1-31.5 31.5-31.5zm29.2 23.2c10 0 18.1 8.1 18.1 18 0 10-8.1 18-18.1 18-9.9 0-18-8-18-18 0-9.9 8.1-18 18-18zm-69.3-61.5c8.5 0 15.3 6.8 15.3 15.2 0 8.4-6.8 15.3-15.3 15.3-8.4 0-15.2-6.9-15.2-15.3 0-8.4 6.8-15.2 15.2-15.2zm104.9 37.1c10.1 0 18.2 8.2 18.2 18.2 0 10-8.1 18.1-18.2 18.1-10 0-18.1-8.1-18.1-18.1 0-10 8.1-18.2 18.1-18.2zm-5.8 21.8c11.7 0 21.1 9.4 21.1 21.1 0 11.6-9.4 21-21.1 21-11.6 0-21-9.4-21-21 0-11.7 9.4-21.1 21-21.1z"/>
+			<path id="圆角矩形 3" class="s21" d="m400.7 83.3c2.5 0.2 4.2 2.4 3.9 4.7l-2.4 20.8c-0.2 2.2-2.3 3.8-4.7 3.6-2.3-0.3-4-2.3-3.8-4.5l2.2-20.8c0.2-2.4 2.4-4.1 4.8-3.8z"/>
+			<path id="圆角矩形 3 拷贝" class="s21" d="m422.5 95.3c2.4 0.2 4 2.3 3.7 4.6l-3 20.2c-0.4 2.1-2.5 3.7-4.8 3.4-2.3-0.2-3.9-2.2-3.6-4.3l2.7-20.2c0.4-2.3 2.6-4 5-3.7z"/>
+			<path id="圆角矩形 3 拷贝 2" class="s21" d="m448.6 78.2c2.5 0.3 4.1 2.5 3.7 4.9l-3.9 21.2c-0.4 2.3-2.6 3.9-5 3.7-2.3-0.3-3.9-2.3-3.6-4.6l3.6-21.2c0.5-2.4 2.8-4.2 5.2-4z"/>
+			<path id="圆角矩形 3 拷贝 3" class="s21" d="m466.9 105.2c2.4 0.2 4 2.3 3.5 4.5l-4.3 19.8c-0.4 2.1-2.7 3.6-4.9 3.4-2.3-0.3-3.8-2.2-3.4-4.3l4-19.8c0.5-2.2 2.8-3.9 5.1-3.6z"/>
+			<path id="圆角矩形 3 拷贝 4" class="s21" d="m495.5 83.1c2.4 0.3 3.9 2.4 3.3 4.8l-5.2 21.1c-0.6 2.3-2.9 3.9-5.3 3.6-2.3-0.2-3.8-2.2-3.3-4.5l5-21.1c0.5-2.4 3-4.1 5.5-3.9z"/>
+			<path id="圆角矩形 3 拷贝 5" class="s21" d="m437 123.2c2.3 0.2 3.9 2.1 3.5 4.2l-2.9 18.4c-0.4 1.9-2.4 3.3-4.6 3.1-2.2-0.2-3.7-2-3.4-4l2.7-18.3c0.3-2.1 2.4-3.6 4.7-3.4z"/>
+			<path id="圆角矩形 3 拷贝 6" class="s21" d="m384 117.2c2.3 0.2 3.9 2.1 3.5 4.2l-2.9 18.4c-0.4 1.9-2.4 3.3-4.6 3.1-2.2-0.2-3.7-2-3.4-4l2.7-18.3c0.3-2.1 2.4-3.6 4.7-3.4z"/>
+			<path id="圆角矩形 3 拷贝 7" class="s21" d="m363 82.2c2.3 0.2 3.9 2.1 3.5 4.2l-2.9 18.4c-0.4 1.9-2.4 3.3-4.6 3.1-2.2-0.2-3.7-2-3.4-4l2.7-18.3c0.3-2.1 2.4-3.6 4.7-3.4z"/>
+		</g>
+		<text id="24" style="transform: matrix(6.027,0,0,6.027,412.622,252.378)" >
+			<tspan x="0" y="0" class="t17">24
+</tspan>
+		</text>
+		<text id="°c 拷贝 2" style="transform: matrix(.178,0,0,.178,443.36,235.612)" >
+			<tspan x="0" y="0" class="t18">°</tspan><tspan  y="0" class="t18">C
+</tspan>
+		</text>
+		<text id="Wed" style="transform: matrix(7.318,0,0,7.318,373.007,-37.41)" >
+			<tspan x="0" y="0" class="t22">W</tspan><tspan  y="0" class="t19">ed
+</tspan>
+		</text>
+	</g>
+	<g id="4">
+		<path id="4" class="s15" d="m623-119h238c11 0 20 9 20 20v368c0 11-9 20-20 20h-238c-11 0-20-9-20-20v-368c0-11 9-20 20-20z"/>
+		<g id="组 2 拷贝 2">
+			<g id="yang">
+				<path id="椭圆 2" class="s2" d="m753.1 27.5c24.5 7.2 38.5 32.9 31.3 57.4-7.2 24.5-32.9 38.5-57.4 31.3-24.5-7.2-38.5-33-31.3-57.4 7.2-24.5 32.9-38.5 57.4-31.3z"/>
+				<path id="椭圆 2 拷贝" class="s3" d="m749.9 31c23.4 6.9 36.7 31.4 29.8 54.8-6.9 23.3-31.4 36.7-54.8 29.8-23.4-6.9-36.7-31.4-29.8-54.8 6.9-23.4 31.4-36.7 54.8-29.8z"/>
+				<path id="椭圆 2 拷贝 2" class="s4" d="m743.9 38.6c20.2 6 31.7 27.2 25.8 47.3-6 20.2-27.2 31.7-47.4 25.8-20.2-6-31.7-27.2-25.8-47.4 6-20.1 27.2-31.7 47.4-25.7z"/>
+				<path id="圆角矩形 2" class="s2" d="m760.4 2.3l0.4 0.1c2.2 0.6 3.4 2.9 2.8 5.1l-3.9 13c-0.6 2.2-2.9 3.4-5.1 2.8l-0.4-0.2c-2.2-0.6-3.4-2.9-2.8-5.1l3.9-13c0.6-2.1 2.9-3.4 5.1-2.7z"/>
+				<path id="圆角矩形 2 拷贝" class="s2" d="m725.4 120.7l0.4 0.2c2.2 0.6 3.4 2.9 2.8 5.1l-3.9 13c-0.6 2.1-2.9 3.4-5.1 2.7l-0.4-0.1c-2.2-0.6-3.4-2.9-2.8-5.1l3.9-13c0.6-2.2 2.9-3.4 5.1-2.8z"/>
+				<path id="圆角矩形 2 拷贝 2" class="s2" d="m794 83.4l13 3.9c2.2 0.6 3.4 2.9 2.8 5.1l-0.2 0.4c-0.6 2.2-2.9 3.4-5.1 2.8l-13-3.9c-2.1-0.6-3.4-2.9-2.7-5.1l0.1-0.4c0.6-2.2 2.9-3.4 5.1-2.8z"/>
+				<path id="圆角矩形 2 拷贝 2" class="s2" d="m675.5 48.4l13 3.9c2.2 0.6 3.4 2.9 2.8 5.1l-0.2 0.4c-0.6 2.2-2.9 3.4-5.1 2.8l-13-3.9c-2.1-0.6-3.4-2.9-2.7-5.1l0.1-0.4c0.6-2.2 2.9-3.4 5.1-2.8z"/>
+				<path id="圆角矩形 2 拷贝 3" class="s2" d="m721.9 1.6l2.2-0.5c1.7-0.4 3.4 0.7 3.8 2.4l3.6 14.9c0.4 1.7-0.6 3.5-2.3 3.9l-2.2 0.5c-1.7 0.4-3.5-0.6-3.9-2.4l-3.6-14.9c-0.4-1.7 0.7-3.4 2.4-3.9z"/>
+				<path id="圆角矩形 2 拷贝 3" class="s2" d="m750.8 121.7l2.2-0.5c1.7-0.4 3.5 0.6 3.9 2.4l3.6 14.9c0.4 1.7-0.7 3.4-2.4 3.9l-2.2 0.5c-1.7 0.4-3.4-0.7-3.8-2.4l-3.6-14.9c-0.4-1.7 0.6-3.5 2.3-3.9z"/>
+				<path id="圆角矩形 2 拷贝 3" class="s2" d="m791.6 55.1l14.9-3.6c1.7-0.4 3.5 0.7 3.9 2.4l0.5 2.2c0.4 1.7-0.6 3.4-2.4 3.8l-14.9 3.6c-1.7 0.4-3.4-0.6-3.9-2.3l-0.5-2.2c-0.4-1.7 0.7-3.5 2.4-3.9z"/>
+				<path id="圆角矩形 2 拷贝 3" class="s2" d="m671.5 84.1l14.9-3.6c1.7-0.4 3.4 0.6 3.9 2.3l0.5 2.2c0.4 1.7-0.7 3.5-2.4 3.9l-14.9 3.6c-1.7 0.4-3.5-0.7-3.9-2.4l-0.5-2.2c-0.4-1.7 0.6-3.4 2.4-3.8z"/>
+				<path id="圆角矩形 2 拷贝 4" class="s2" d="m689.1 20.1l1.7-1.5c1.2-1.2 3.3-1.2 4.5 0.1l10.6 11.1c1.2 1.3 1.1 3.3-0.2 4.6l-1.6 1.5c-1.3 1.2-3.3 1.2-4.5-0.1l-10.6-11.2c-1.2-1.2-1.2-3.3 0.1-4.5z"/>
+				<path id="圆角矩形 2 拷贝 4" class="s2" d="m774.3 109.7l1.6-1.6c1.3-1.2 3.3-1.2 4.5 0.1l10.6 11.2c1.2 1.2 1.2 3.3-0.1 4.5l-1.6 1.5c-1.3 1.2-3.4 1.2-4.6-0.1l-10.6-11.1c-1.2-1.3-1.1-3.3 0.2-4.5z"/>
+				<path id="圆角矩形 2 拷贝 4" class="s2" d="m776.2 31.6l11.2-10.6c1.3-1.2 3.3-1.1 4.5 0.1l1.5 1.7c1.3 1.2 1.2 3.3-0.1 4.5l-11.1 10.6c-1.3 1.2-3.3 1.1-4.5-0.1l-1.6-1.7c-1.2-1.3-1.1-3.3 0.1-4.5z"/>
+				<path id="圆角矩形 2 拷贝 4" class="s2" d="m686.7 116.7l11.1-10.6c1.3-1.2 3.3-1.1 4.5 0.1l1.6 1.7c1.2 1.3 1.2 3.3-0.1 4.5l-11.2 10.6c-1.2 1.2-3.3 1.1-4.5-0.1l-1.5-1.7c-1.3-1.2-1.2-3.3 0.1-4.5z"/>
+			</g>
+		</g>
+		<text id="30" style="transform: matrix(6.027,0,0,6.027,723.622,255.378)" >
+			<tspan x="0" y="0" class="t17">30
+</tspan>
+		</text>
+		<text id="°c 拷贝 3" style="transform: matrix(.178,0,0,.178,754.36,238.612)" >
+			<tspan x="0" y="0" class="t18">°</tspan><tspan  y="0" class="t18">C
+</tspan>
+		</text>
+		<text id="thur" style="transform: matrix(7.318,0,0,7.318,685.007,-37.41)" >
+			<tspan x="0" y="0" class="t22">T</tspan><tspan  y="0" class="t19">hur
+</tspan>
+		</text>
+	</g>
+	<g id="5">
+		<path id="5" class="s15" d="m945-119h238c11 0 20 9 20 20v368c0 11-9 20-20 20h-238c-11 0-20-9-20-20v-368c0-11 9-20 20-20z"/>
+		<g id="组 3">
+			<path id="椭圆 4 拷贝 3" class="s23" d="m996.5 47.8c12.5 0 22.5 10.1 22.5 22.5 0 12.4-10 22.5-22.5 22.5-12.4 0-22.5-10.1-22.5-22.5 0-12.4 10.1-22.5 22.5-22.5zm30.2-31.3c16.2 0 29.2 13 29.2 29.1 0 16.1-13 29.2-29.2 29.2-16.1 0-29.2-13.1-29.2-29.2 0-16.1 13.1-29.1 29.2-29.1zm55.5-19.5c20.6 0 37.4 16.7 37.4 37.3 0 20.6-16.8 37.3-37.4 37.3-20.6 0-37.3-16.7-37.3-37.3 0-20.6 16.7-37.3 37.3-37.3zm43.5 34.8c13.3 0 24.1 10.8 24.1 24.1 0 13.3-10.8 24.1-24.1 24.1-13.3 0-24.1-10.8-24.1-24.1 0-13.3 10.8-24.1 24.1-24.1zm-88.4 17.8c17.9 0 32.3 14.4 32.3 32.2 0 17.8-14.4 32.2-32.3 32.2-17.8 0-32.2-14.4-32.2-32.2 0-17.8 14.4-32.2 32.2-32.2zm50.7-7.9c17.4 0 31.6 14.1 31.6 31.5 0 17.4-14.2 31.5-31.6 31.5-17.4 0-31.5-14.1-31.5-31.5 0-17.4 14.1-31.5 31.5-31.5zm29.2 23.2c10 0 18.1 8.1 18.1 18 0 10-8.1 18-18.1 18-9.9 0-18-8-18-18 0-9.9 8.1-18 18-18zm-69.3-61.5c8.5 0 15.3 6.8 15.3 15.2 0 8.4-6.8 15.3-15.3 15.3-8.4 0-15.2-6.9-15.2-15.3 0-8.4 6.8-15.2 15.2-15.2zm104.9 37.1c10.1 0 18.2 8.2 18.2 18.2 0 10-8.1 18.1-18.2 18.1-10 0-18.1-8.1-18.1-18.1 0-10 8.1-18.2 18.1-18.2zm-5.8 21.8c11.7 0 21.1 9.4 21.1 21.1 0 11.6-9.4 21-21.1 21-11.6 0-21-9.4-21-21 0-11.7 9.4-21.1 21-21.1z"/>
+			<path id="形状 2" class="s24" d="m992 104c0 0 87.8 0 93 0 5.2 0 25.2-6.9 22-29-3.2-22.1-30.1-19.6-35-6-4.9 13.6 8.9 25.7 22 13"/>
+			<path id="形状 3" class="s24" d="m992 114c0 0 71 0 77 0 6 0 22.7 5.7 23 17"/>
+			<path id="形状 4" class="s24" d="m992 124h55"/>
+		</g>
+		<text id="22" style="transform: matrix(6.027,0,0,6.027,1043.622,255.378)" >
+			<tspan x="0" y="0" class="t17">22
+</tspan>
+		</text>
+		<text id="°c 拷贝 4" style="transform: matrix(.178,0,0,.178,1074.36,238.612)" >
+			<tspan x="0" y="0" class="t18">°</tspan><tspan  y="0" class="t18">C
+</tspan>
+		</text>
+		<text id="fri" style="transform: matrix(7.318,0,0,7.318,1029.007,-37.41)" >
+			<tspan x="0" y="0" class="t22">F</tspan><tspan  y="0" class="t19">ri
+</tspan>
+		</text>
+	</g>
+	<g id="5">
+		<path id="6" class="s15" d="m1261-119h238c11 0 20 9 20 20v368c0 11-9 20-20 20h-238c-11 0-20-9-20-20v-368c0-11 9-20 20-20z"/>
+		<g id="组 3 拷贝">
+			<path id="椭圆 4 拷贝 3" class="s25" d="m1314.5 51.8c12.5 0 22.5 10.1 22.5 22.5 0 12.4-10 22.5-22.5 22.5-12.4 0-22.5-10.1-22.5-22.5 0-12.4 10.1-22.5 22.5-22.5zm30.2-31.3c16.2 0 29.2 13 29.2 29.1 0 16.1-13 29.2-29.2 29.2-16.1 0-29.2-13.1-29.2-29.2 0-16.1 13.1-29.1 29.2-29.1zm55.5-19.5c20.6 0 37.4 16.7 37.4 37.3 0 20.6-16.8 37.3-37.4 37.3-20.6 0-37.3-16.7-37.3-37.3 0-20.6 16.7-37.3 37.3-37.3zm43.5 34.8c13.3 0 24.1 10.8 24.1 24.1 0 13.3-10.8 24.1-24.1 24.1-13.3 0-24.1-10.8-24.1-24.1 0-13.3 10.8-24.1 24.1-24.1zm-88.4 17.8c17.9 0 32.3 14.4 32.3 32.2 0 17.8-14.4 32.2-32.3 32.2-17.8 0-32.2-14.4-32.2-32.2 0-17.8 14.4-32.2 32.2-32.2zm50.7-7.9c17.4 0 31.6 14.1 31.6 31.5 0 17.4-14.2 31.5-31.6 31.5-17.4 0-31.5-14.1-31.5-31.5 0-17.4 14.1-31.5 31.5-31.5zm29.2 23.2c10 0 18.1 8.1 18.1 18 0 10-8.1 18-18.1 18-9.9 0-18-8-18-18 0-9.9 8.1-18 18-18zm-69.3-61.5c8.5 0 15.3 6.8 15.3 15.2 0 8.4-6.8 15.3-15.3 15.3-8.4 0-15.2-6.9-15.2-15.3 0-8.4 6.8-15.2 15.2-15.2zm104.9 37.1c10.1 0 18.2 8.2 18.2 18.2 0 10-8.1 18.1-18.2 18.1-10 0-18.1-8.1-18.1-18.1 0-10 8.1-18.2 18.1-18.2zm-5.8 21.8c11.7 0 21.1 9.4 21.1 21.1 0 11.6-9.4 21-21.1 21-11.6 0-21-9.4-21-21 0-11.7 9.4-21.1 21-21.1z"/>
+			<path id="形状 2" class="s24" d="m1310 108c0 0 87.8 0 93 0 5.2 0 25.2-6.9 22-29-3.2-22.1-30.1-19.6-35-6-4.9 13.6 8.9 25.7 22 13"/>
+			<path id="形状 3" class="s24" d="m1310 118c0 0 71 0 77 0 6 0 22.7 5.7 23 17"/>
+			<path id="形状 4" class="s24" d="m1310 128h55"/>
+		</g>
+		<text id="20" style="transform: matrix(6.027,0,0,6.027,1365.622,260.378)" >
+			<tspan x="0" y="0" class="t17">20
+</tspan>
+		</text>
+		<text id="°c 拷贝 5" style="transform: matrix(.178,0,0,.178,1396.36,243.612)" >
+			<tspan x="0" y="0" class="t18">°</tspan><tspan  y="0" class="t18">C
+</tspan>
+		</text>
+		<text id="sat" style="transform: matrix(7.318,0,0,7.318,1347.007,-33.41)" >
+			<tspan x="0" y="0" class="t22">S</tspan><tspan  y="0" class="t19">at
+</tspan>
+		</text>
+	</g>
+	<path id="7" class="s15" d="m1583-119h238c11 0 20 9 20 20v368c0 11-9 20-20 20h-238c-11 0-20-9-20-20v-368c0-11 9-20 20-20z"/>
+	<g id="组 1 拷贝 2">
+		<path id="椭圆 4 拷贝 2" class="s26" d="m1625.5 46.8c12.5 0 22.5 10.1 22.5 22.5 0 12.4-10 22.5-22.5 22.5-12.4 0-22.5-10.1-22.5-22.5 0-12.4 10.1-22.5 22.5-22.5zm30.2-31.3c16.2 0 29.2 13 29.2 29.1 0 16.1-13 29.2-29.2 29.2-16.1 0-29.2-13.1-29.2-29.2 0-16.1 13.1-29.1 29.2-29.1zm55.5-19.5c20.6 0 37.4 16.7 37.4 37.3 0 20.6-16.8 37.3-37.4 37.3-20.6 0-37.3-16.7-37.3-37.3 0-20.6 16.7-37.3 37.3-37.3zm43.5 34.8c13.3 0 24.1 10.8 24.1 24.1 0 13.3-10.8 24.1-24.1 24.1-13.3 0-24.1-10.8-24.1-24.1 0-13.3 10.8-24.1 24.1-24.1zm-88.4 17.8c17.9 0 32.3 14.4 32.3 32.2 0 17.8-14.4 32.2-32.3 32.2-17.8 0-32.2-14.4-32.2-32.2 0-17.8 14.4-32.2 32.2-32.2zm50.7-7.9c17.4 0 31.6 14.1 31.6 31.5 0 17.4-14.2 31.5-31.6 31.5-17.4 0-31.5-14.1-31.5-31.5 0-17.4 14.1-31.5 31.5-31.5zm29.2 23.2c10 0 18.1 8.1 18.1 18 0 10-8.1 18-18.1 18-9.9 0-18-8-18-18 0-9.9 8.1-18 18-18zm-69.3-61.5c8.5 0 15.3 6.8 15.3 15.2 0 8.4-6.8 15.3-15.3 15.3-8.4 0-15.2-6.9-15.2-15.3 0-8.4 6.8-15.2 15.2-15.2zm104.9 37.1c10.1 0 18.2 8.2 18.2 18.2 0 10-8.1 18.1-18.2 18.1-10 0-18.1-8.1-18.1-18.1 0-10 8.1-18.2 18.1-18.2zm-5.8 21.8c11.7 0 21.1 9.4 21.1 21.1 0 11.6-9.4 21-21.1 21-11.6 0-21-9.4-21-21 0-11.7 9.4-21.1 21-21.1z"/>
+		<path id="圆角矩形 3" class="s21" d="m1673.7 83.3c2.5 0.2 4.2 2.4 3.9 4.7l-2.4 20.8c-0.2 2.2-2.3 3.8-4.7 3.6-2.3-0.3-4-2.3-3.8-4.5l2.2-20.8c0.2-2.4 2.4-4.1 4.8-3.8z"/>
+		<path id="圆角矩形 3 拷贝" class="s21" d="m1695.5 95.3c2.4 0.2 4 2.3 3.7 4.6l-3 20.2c-0.4 2.1-2.5 3.7-4.8 3.4-2.3-0.2-3.9-2.2-3.6-4.3l2.7-20.2c0.4-2.3 2.6-4 5-3.7z"/>
+		<path id="圆角矩形 3 拷贝 2" class="s21" d="m1721.6 78.2c2.5 0.3 4.1 2.5 3.7 4.9l-3.9 21.2c-0.4 2.3-2.6 3.9-5 3.7-2.3-0.3-3.9-2.3-3.6-4.6l3.6-21.2c0.5-2.4 2.8-4.2 5.2-4z"/>
+		<path id="圆角矩形 3 拷贝 3" class="s21" d="m1739.9 105.2c2.4 0.2 4 2.3 3.5 4.5l-4.3 19.8c-0.4 2.1-2.7 3.6-4.9 3.4-2.3-0.3-3.8-2.2-3.4-4.3l4-19.8c0.5-2.2 2.8-3.9 5.1-3.6z"/>
+		<path id="圆角矩形 3 拷贝 4" class="s21" d="m1768.5 83.1c2.4 0.3 3.9 2.4 3.3 4.8l-5.2 21.1c-0.6 2.3-2.9 3.9-5.3 3.6-2.3-0.2-3.8-2.2-3.3-4.5l5-21.1c0.5-2.4 3-4.1 5.5-3.9z"/>
+		<path id="圆角矩形 3 拷贝 5" class="s21" d="m1710 123.2c2.3 0.2 3.9 2.1 3.5 4.2l-2.9 18.4c-0.4 1.9-2.4 3.3-4.6 3.1-2.2-0.2-3.7-2-3.4-4l2.7-18.3c0.3-2.1 2.4-3.6 4.7-3.4z"/>
+		<path id="圆角矩形 3 拷贝 6" class="s21" d="m1657 117.2c2.3 0.2 3.9 2.1 3.5 4.2l-2.9 18.4c-0.4 1.9-2.4 3.3-4.6 3.1-2.2-0.2-3.7-2-3.4-4l2.7-18.3c0.3-2.1 2.4-3.6 4.7-3.4z"/>
+		<path id="圆角矩形 3 拷贝 7" class="s21" d="m1636 82.2c2.3 0.2 3.9 2.1 3.5 4.2l-2.9 18.4c-0.4 1.9-2.4 3.3-4.6 3.1-2.2-0.2-3.7-2-3.4-4l2.7-18.3c0.3-2.1 2.4-3.6 4.7-3.4z"/>
+	</g>
+	<text id="18" style="transform: matrix(6.027,0,0,6.027,1685.622,252.378)" >
+		<tspan x="0" y="0" class="t17">18
+</tspan>
+	</text>
+	<text id="°c 拷贝 6" style="transform: matrix(.178,0,0,.178,1716.36,235.612)" >
+		<tspan x="0" y="0" class="t18">°</tspan><tspan  y="0" class="t18">C
+</tspan>
+	</text>
+	<text id="sun" style="transform: matrix(7.318,0,0,7.318,1646.007,-37.41)" >
+		<tspan x="0" y="0" class="t22">S</tspan><tspan  y="0" class="t19">un
+</tspan>
+	</text>
+</svg>
