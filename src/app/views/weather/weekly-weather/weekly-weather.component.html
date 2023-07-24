@@ -1,0 +1,30 @@
+<div class="grid grid-cols-7 gap-8">
+  <div
+    *ngFor="let week of weekdays"
+    class="w-full weekday-weather rounded-md p-3"
+    style="background-color: #dfe9f5"
+  >
+    <div class="weekday-title mb-4">
+      <p
+        class="font-barlow text-lg font-bold tracking-wide capitalize text-center text-black"
+      >
+        {{ week }}
+      </p>
+    </div>
+
+    <div class="weekday-weather-icon mb-10">
+      <img src="assets/images/svg/cloudy.svg" alt="cloudy" />
+    </div>
+
+    <div class="weekday-temperature-detail">
+      <div class="flex flex-row justify-center">
+        <p class="font-barlow text-lg tracking-wide text-black">22</p>
+        <img
+          class="w-8 h-full"
+          src="assets/images/svg/dark-celcius.svg"
+          alt="celcius"
+        />
+      </div>
+    </div>
+  </div>
+</div>

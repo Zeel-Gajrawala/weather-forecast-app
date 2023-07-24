@@ -1,3 +1,4 @@
+import { DatePipe } from '@angular/common';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Weather } from 'src/app/core/models/weather';
@@ -10,17 +11,18 @@ import { WeatherService } from 'src/app/core/services/weather/weather.service';
 })
 export class WeatherComponent implements OnInit {
 
-  loader: boolean = true;
+  loader: boolean = false;
   weatherType: string = '';
   weather: Weather = {};
-  weekdays: string[] = ['Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun'];
+  today!: Date;
 
   constructor(
-    private weatherService: WeatherService
+    private weatherService: WeatherService,
   ) { }
 
   ngOnInit(): void {
-    // this.getWeather('mumbai');
+    this.today = new Date();
+    this.getWeather('mumbai');
   }
 
   getWeather(city: string) {

@@ -1,19 +1,27 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DatePipe, DecimalPipe } from '@angular/common';
 
 import { WeatherRoutingModule } from './weather-routing.module';
 import { WeatherComponent } from './weather/weather.component';
 import { SharedModule } from '../shared/shared.module';
+import { WeeklyWeatherComponent } from './weekly-weather/weekly-weather.component';
 
 
 @NgModule({
   declarations: [
-    WeatherComponent
+    WeatherComponent,
+    WeeklyWeatherComponent
   ],
   imports: [
     CommonModule,
     WeatherRoutingModule,
-    SharedModule
+    SharedModule,
+    DatePipe,
+    DecimalPipe
+  ],
+  providers: [
+    DatePipe,
+    DecimalPipe
   ]
 })
 export class WeatherModule { }

@@ -11,53 +11,51 @@
       </div>
 
       <div class="search-city mt-5">
-        <div>
-          <div class="relative mt-2 rounded-md shadow-sm">
-            <div
-              class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
-            >
-              <span class="text-gray-500 w-4/5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                  />
-                </svg>
-              </span>
-            </div>
-            <input
-              type="text"
-              name="search-city"
-              id="search-city"
-              class="block w-full rounded border-0 py-1.5 pl-11 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 placeholder:font-comfortaa focus:ring-0 focus:ring-transparent sm:text-sm sm:leading-6"
-              placeholder="Search City"
-            />
-            <div class="absolute inset-y-0 right-0 flex items-center">
-              <button class="text-gray-500 p-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-                  />
-                </svg>
-              </button>
-            </div>
+        <div class="relative mt-2 rounded-md shadow-sm">
+          <div
+            class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+          >
+            <span class="text-gray-500 w-4/5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </span>
+          </div>
+          <input
+            type="text"
+            name="search-city"
+            id="search-city"
+            class="block w-full rounded border-0 py-1.5 pl-11 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 placeholder:font-comfortaa focus:ring-0 focus:ring-transparent sm:text-sm sm:leading-6"
+            placeholder="Search City"
+          />
+          <div class="absolute inset-y-0 right-0 flex items-center">
+            <button class="text-gray-500 p-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -79,9 +77,9 @@
               <div class="temperature-cel">
                 <div class="flex">
                   <p
-                    class="font-barlow font-medium text-10xl tracking-wide text-white"
+                    class="font-barlow font-medium text-9xl tracking-wide text-white"
                   >
-                    22
+                    {{ weather.main?.temp | number : "1.0-0" }}
                   </p>
                   <img
                     class="w-20 h-full"
@@ -95,7 +93,9 @@
                   Temperature
                 </p>
                 <p class="font-comfortaa font-bold text-xl tracking-wide">
-                  30-22
+                  {{ weather.main?.temp_max | number : "1.0-0" }}-{{
+                    weather.main?.temp_min | number : "1.0-0"
+                  }}
                 </p>
               </div>
             </div>
@@ -115,12 +115,16 @@
             <p
               class="font-extrabold tracking-widest font-yeseva text-4xl uppercase text-white"
             >
-              Partly cloudy
+              {{
+                weather.weather && weather.weather.length > 0
+                  ? weather.weather![0].description
+                  : ""
+              }}
             </p>
             <p
               class="font-comfortaa tracking-wide text-2xl capitalize text-white"
             >
-              2023 Mon, June 17
+              {{ today | customizeDate : "yyyy EEE, MMMM d" }}
             </p>
           </div>
 
@@ -133,7 +137,7 @@
             <p
               class="font-comfortaa tracking-wide font-bold text-xl text-black"
             >
-              50%
+              {{ weather.main?.humidity }}%
             </p>
           </div>
         </div>
@@ -144,39 +148,11 @@
           <p
             class="font-yeseva tracking-widest font-bold text-3xl text-white capitalize"
           >
-            City
+            {{ weather.name }}
           </p>
         </div>
-        <div class="grid grid-cols-7 gap-8">
-          <div
-            *ngFor="let week of weekdays"
-            class="w-full weekday-weather rounded-md p-3"
-            style="background-color: #dfe9f5"
-          >
-            <div class="weekday-title mb-4">
-              <p
-                class="font-barlow text-lg font-bold tracking-wide capitalize text-center text-black"
-              >
-                {{ week }}
-              </p>
-            </div>
 
-            <div class="weekday-weather-icon mb-10">
-              <img src="assets/images/svg/cloudy.svg" alt="cloudy" />
-            </div>
-
-            <div class="weekday-temperature-detail">
-              <div class="flex flex-row justify-center">
-                <p class="font-barlow text-lg tracking-wide text-black">22</p>
-                <img
-                  class="w-8 h-full"
-                  src="assets/images/svg/dark-celcius.svg"
-                  alt="celcius"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        <app-weekly-weather></app-weekly-weather>
       </div>
     </div>
   </div>
