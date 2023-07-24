@@ -5,6 +5,7 @@ import { WeatherRoutingModule } from './weather-routing.module';
 import { WeatherComponent } from './weather/weather.component';
 import { SharedModule } from '../shared/shared.module';
 import { WeeklyWeatherComponent } from './weekly-weather/weekly-weather.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { WeeklyWeatherComponent } from './weekly-weather/weekly-weather.componen
     WeatherRoutingModule,
     SharedModule,
     DatePipe,
-    DecimalPipe
+    DecimalPipe,
+    FormsModule
   ],
   providers: [
     DatePipe,

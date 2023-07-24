@@ -1,30 +1,34 @@
-<div class="grid grid-cols-6 gap-8">
+<div
+  class="grid grid-cols-6 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 xxs:grid-cols-2 gap-8"
+>
   <div
     *ngFor="let forecast of dailyForecast"
-    class="w-full weekday-weather rounded-md p-3 bg-secondary"
+    class="w-full weekday-weather rounded-md p-3 bg-secondary flex justify-center xl:h-75 lg:h-64 md:h-52 relative"
   >
-    <div class="weekday-title mb-4">
-      <p
-        class="font-barlow text-lg font-bold tracking-wide capitalize text-center text-black"
-      >
-        {{ forecast.date! | customizeDate : "EEE, MMMM d" }}
-      </p>
-    </div>
-
-    <div class="weekday-weather-icon mb-10">
-      <app-weather-icon [weatherType]="forecast.weather!"></app-weather-icon>
-    </div>
-
-    <div class="weekday-temperature-detail">
-      <div class="flex flex-row justify-center">
-        <p class="font-barlow text-lg tracking-wide text-black">
-          {{ forecast.temp }}
+    <div class="weather-card">
+      <div class="weekday-title mb-8">
+        <p
+          class="font-barlow text-lg font-bold tracking-wider capitalize text-center text-black"
+        >
+          {{ forecast.date! | customizeDate : "EEE, MMMM d" }}
         </p>
-        <img
-          class="w-8 h-full"
-          src="assets/images/svg/dark-celcius.svg"
-          alt="celcius"
-        />
+      </div>
+
+      <div class="weekday-weather-icon mb-10">
+        <app-weather-icon [weatherType]="forecast.weather!"></app-weather-icon>
+      </div>
+
+      <div class="weekday-temperature-detail absolute bottom-3 inset-x-0">
+        <div class="flex justify-center">
+          <p class="font-barlow text-lg tracking-wide text-black">
+            {{ forecast.temp }}
+          </p>
+          <img
+            class="w-8 h-full"
+            src="assets/images/svg/dark-celcius.svg"
+            alt="celcius"
+          />
+        </div>
       </div>
     </div>
   </div>

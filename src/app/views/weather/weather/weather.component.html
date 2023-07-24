@@ -2,7 +2,9 @@
   <div class="weather-app h-screen overflow-y-auto bg-primary">
     <div class="px-20 py-7 relative z-10">
       <div class="header-title rounded bg-neutral-50 p-5">
-        <h1 class="text-7xl uppercase tracking-widest font-yeseva text-center">
+        <h1
+          class="text-7xl xl:text-6xl lg:text-5xl md:text-4 xl sm:text-4xl uppercase tracking-widest font-yeseva text-center"
+        >
           Weather Forecast
         </h1>
       </div>
@@ -35,9 +37,11 @@
             id="search-city"
             class="block w-full rounded border-0 py-1.5 pl-11 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 placeholder:font-comfortaa focus:ring-0 focus:ring-transparent sm:text-sm sm:leading-6"
             placeholder="Search City"
+            [(ngModel)]="search"
+            (keyup.enter)="searchCity()"
           />
           <div class="absolute inset-y-0 right-0 flex items-center">
-            <button class="text-gray-500 p-4">
+            <button class="text-gray-500 p-4" (click)="searchCity()">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -60,10 +64,12 @@
       <div class="flex items-center mt-16">
         <div class="w-4/5 temperature flex justify-end">
           <div class="flex">
-            <div class="w-1/4 flex items-end">
+            <div
+              class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-2/4 sm:w-2/4 xs:w-2/5 xxs:w-2/5 flex items-end"
+            >
               <div class="thermometer-icon">
                 <img
-                  class="w-7"
+                  class="2xl:w-7 xl:w-7 lg:w-7 md:w-8 sm:w-8 xs:w-8 xxs:w-8"
                   src="assets/images/svg/thermometer.svg"
                   alt="thermometer-icon"
                 />
@@ -74,7 +80,7 @@
               <div class="temperature-cel">
                 <div class="flex">
                   <p
-                    class="font-barlow font-medium text-9xl tracking-wide text-white"
+                    class="font-barlow font-medium 2xl:text-9xl xl:text-9xl lg:text-9xl md:text-8xl sm:text-8xl xs:text-7xl xxs:text-7xl tracking-wide text-white"
                   >
                     {{ weather.main?.temp | number : "1.0-0" }}
                   </p>
@@ -86,10 +92,14 @@
                 </div>
               </div>
               <div class="temperature-range">
-                <p class="font-comfortaa font-bold text-xl tracking-wide mb-1">
+                <p
+                  class="font-comfortaa font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base tracking-wide mb-1"
+                >
                   Temperature
                 </p>
-                <p class="font-comfortaa font-bold text-xl tracking-wide">
+                <p
+                  class="font-comfortaa font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base tracking-wide"
+                >
                   {{ weather.main?.temp_max | number : "1.0-0" }}-{{
                     weather.main?.temp_min | number : "1.0-0"
                   }}
@@ -117,7 +127,7 @@
         <div class="w-full weather-info ps-7">
           <div class="weather-condition mb-8">
             <p
-              class="font-extrabold tracking-widest font-yeseva text-4xl uppercase text-white"
+              class="font-extrabold tracking-widest font-yeseva 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-2xl xxs:text-2xl uppercase text-white"
             >
               {{
                 weather.weather && weather.weather.length > 0
@@ -126,7 +136,7 @@
               }}
             </p>
             <p
-              class="font-comfortaa tracking-wide text-2xl capitalize text-white"
+              class="font-comfortaa tracking-wide 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl sm:text-xl xs:text-lg xxs:text-lg capitalize text-white"
             >
               {{ today | customizeDate : "yyyy EEE, MMMM d" }}
             </p>
@@ -134,12 +144,12 @@
 
           <div class="humidity-info">
             <p
-              class="font-comfortaa tracking-wide font-bold text-2xl capitalize text-black"
+              class="font-comfortaa tracking-wide font-bold 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl sm:text-xl xs:text-lg xxs:text-lg capitalize text-black"
             >
               Humidity
             </p>
             <p
-              class="font-comfortaa tracking-wide font-bold text-xl text-black"
+              class="font-comfortaa tracking-wide font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xs:text-base xxs:text-base text-black"
             >
               {{ weather.main?.humidity }}%
             </p>

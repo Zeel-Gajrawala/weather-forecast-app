@@ -12,11 +12,12 @@ import { WeatherService } from 'src/app/core/services/weather/weather.service';
 })
 export class WeatherComponent implements OnInit {
 
-  loader: boolean = false;
+  loader: boolean = true;
   weatherType: string = '';
   weather: Weather = {};
   forecast: Dailyforecast = {};
   today!: Date;
+  search: string = 'Mumbai';
 
   constructor(
     private weatherService: WeatherService,
@@ -24,8 +25,7 @@ export class WeatherComponent implements OnInit {
 
   ngOnInit(): void {
     this.today = new Date();
-    this.getWeather('mumbai');
-    this.getDailyForecast('mumbai');
+    this.searchCity();
   }
 
   getWeather(city: string) {
@@ -52,6 +52,11 @@ export class WeatherComponent implements OnInit {
     }, (err: HttpErrorResponse) => {
       console.log(err);
     })
+  }
+
+  searchCity() {
+    this.getWeather(this.search);
+    this.getDailyForecast(this.search);
   }
 
 }

@@ -19,6 +19,8 @@ export class WeeklyWeatherComponent implements OnChanges {
   }
 
   getDailyForecast() {
+    this.dailyForecast = [];
+
     if (this.forecast && this.forecast.list && this.forecast.list.length > 0) {
 
       let forecastGroupedData = this.forecast.list!.reduce((ArrObj, weather) => {
