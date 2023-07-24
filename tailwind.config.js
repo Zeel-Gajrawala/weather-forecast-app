@@ -30,6 +30,11 @@ module.exports = {
       comfortaa: ["Comfortaa"],
       barlow: ["Barlow Condensed"],
     },
+    backgroundColor: (theme) => ({
+      ...theme("colors"),
+      primary: "#5e8fc7",
+      secondary: "#dfe9f5",
+    }),
   },
   plugins: [],
 };

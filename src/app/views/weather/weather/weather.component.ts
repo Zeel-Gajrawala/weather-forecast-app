@@ -1,6 +1,7 @@
 import { DatePipe } from '@angular/common';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Dailyforecast } from 'src/app/core/models/dailyforecast';
 import { Weather } from 'src/app/core/models/weather';
 import { WeatherService } from 'src/app/core/services/weather/weather.service';
 
@@ -14,6 +15,7 @@ export class WeatherComponent implements OnInit {
   loader: boolean = false;
   weatherType: string = '';
   weather: Weather = {};
+  forecast: Dailyforecast = {};
   today!: Date;
 
   constructor(
@@ -23,6 +25,7 @@ export class WeatherComponent implements OnInit {
   ngOnInit(): void {
     this.today = new Date();
     this.getWeather('mumbai');
+    this.getDailyForecast('mumbai');
   }
 
   getWeather(city: string) {
@@ -36,6 +39,18 @@ export class WeatherComponent implements OnInit {
     }, (err: HttpErrorResponse) => {
       console.log(err);
       this.loader = false;
+    })
+  }
+
+  getDailyForecast(city: string) {
+    this.weatherService.getDailyForecast(city, 50).subscribe((forecast: Dailyforecast) => {
+      if (forecast && forecast.list && forecast.list.length > 0) {
+        this.forecast = forecast;
+      } else {
+        this.forecast = {};
+      }
+    }, (err: HttpErrorResponse) => {
+      console.log(err);
     })
   }
 

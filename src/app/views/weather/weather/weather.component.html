@@ -1,8 +1,5 @@
 <div class="weather-app" *ngIf="!loader; else load">
-  <div
-    class="weather-app h-screen overflow-y-auto"
-    style="background-color: #5e8fc7"
-  >
+  <div class="weather-app h-screen overflow-y-auto bg-primary">
     <div class="px-20 py-7 relative z-10">
       <div class="header-title rounded bg-neutral-50 p-5">
         <h1 class="text-7xl uppercase tracking-widest font-yeseva text-center">
@@ -101,8 +98,15 @@
             </div>
           </div>
         </div>
-        <div class="w-4/5 weather-icon">
+        <div class="w-4/5 weather-icon flex items-center">
           <div class="svg-icon">
+            <!-- <app-weather-icon
+              [weatherType]="
+                weather && weather.weather && weather.weather.length > 0
+                  ? weather.weather![0].main!
+                  : ''
+              "
+            ></app-weather-icon> -->
             <img
               class="w-full"
               [src]="'assets/images/svg/cloudy-lg.svg'"
@@ -117,7 +121,7 @@
             >
               {{
                 weather.weather && weather.weather.length > 0
-                  ? weather.weather![0].description
+                  ? weather.weather[0].description
                   : ""
               }}
             </p>
@@ -152,7 +156,9 @@
           </p>
         </div>
 
-        <app-weekly-weather></app-weekly-weather>
+        <div class="dail-forecast-list flex justify-center">
+          <app-weekly-weather [forecast]="forecast"></app-weekly-weather>
+        </div>
       </div>
     </div>
   </div>
