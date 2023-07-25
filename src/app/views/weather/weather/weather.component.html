@@ -1,4 +1,7 @@
-<div class="overflow-hidden h-full fixed bg-primary" *ngIf="!loader; else load">
+<div
+  class="overflow-hidden h-full w-full fixed bg-primary"
+  *ngIf="!loader; else load"
+>
   <div class="weather-app overflow-y-auto h-screen">
     <div class="px-20 py-7 relative z-10">
       <div class="header-title rounded bg-neutral-50 p-5">
@@ -168,7 +171,7 @@
             </p>
           </div>
 
-          <div class="dail-forecast-list flex justify-center">
+          <div class="dail-forecast-list">
             <app-weekly-weather [forecast]="forecast"></app-weekly-weather>
           </div>
         </div>
